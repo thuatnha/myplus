@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2016, 9:38:07 PM
+    Author     : thuatnv
+*/
+html, body, #wrapper { 
+    height: 100%;
+    color: #303030; /* text color */
+    font-family: "Roboto";
+}
+body > #wrapper { 
+    height: auto; 
+    min-height: 100%; 
+
+}
+header{
+    background-color: #164777;
+    height: 80px;
+}
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    background: #e9edf5;
+    height: 90px;
+    color: #212121;
+    font-size: 14px;
+    padding-top: 15px;    
+    font-weight: normal;
+    font-style: normal;
+}
+h3.title-center {
+    color: #303030;
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.point {
+    color: #2793d1; /* text color */
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+}
+.text-title-info {
+    color: #303030; /* text color */
+    font-family: "Roboto";
+    font-size: 18px;
+}
