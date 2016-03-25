@@ -67,3 +67,31 @@ h3.title-center {
 .img-wraper {
     
 }
+.choise {
+    margin-bottom: 40px;
+    display: block;
+}
+.choise span {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+}
+article#page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.info-acc, .info-acc a {
+    color: #fff;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 5px;
+}
+.info-acc a:first-child {
+    margin-right: 5px;
+    margin-left: 0px;
+}
+.info-acc a {
+    margin-left: 5px;
+}
