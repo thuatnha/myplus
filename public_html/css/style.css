@@ -10,7 +10,7 @@ and open the template in the editor.
 html, body, #wrapper { 
     height: 100%;
     color: #303030; /* text color */
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 body > #wrapper { 
     height: auto; 
@@ -20,35 +20,36 @@ body > #wrapper {
 header{
     background-color: #164777;
     height: 80px;
+    color: #fff;
 }
 footer {
     clear: both;
     position: relative;
     z-index: 10;
     background: #e9edf5;
-    height: 90px;
+    min-height: 90px;
     color: #212121;
     font-size: 14px;
     padding-top: 15px;    
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 h3.title-center {
     color: #303030;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
 }
 .point {
     color: #2793d1; /* text color */
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
 }
 .text-title-info {
     color: #303030; /* text color */
-    font-family: "Roboto";
+    fofont-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 .nav > li > a {
@@ -86,7 +87,7 @@ article#page {
     color: #fff;
     font-weight: 300;
     line-height: 20px;
-    padding: 5px;
+    padding: 25px 0px ;
 }
 .info-acc a:first-child {
     margin-right: 5px;
@@ -95,3 +96,128 @@ article#page {
 .info-acc a {
     margin-left: 5px;
 }
+footer .logo {
+    width: 36px;
+    height: 55px;
+    float: left;
+    margin-right: 10px;
+}
+.name-tile-navbar-mp {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+.account-info {
+    display: inline-block;
+    float: right;
+}
+.tagbar, .tagbar a {
+    display: inline-block;
+    color: #fff;
+}
+.menu-mobile {
+    padding-top: 10px;
+}
+#index-mb {
+    height: 70px;
+    background: url('../images/bgdangky.jpg') center top no-repeat;
+}
+.title-wcmb {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+#step-form {
+    background: url('../images/bgdangkystep.jpg') center top no-repeat;
+    min-height: 120px;
+}
+.mp_stepbar {
+    list-style: none;
+    margin: 40px;
+    padding: 0;
+    width: 100%;
+}
+.mp_stepbar li {
+    float:left;
+    width: 33.333%;
+    background: #e2e2e2;
+    line-height: 5px;
+    height: 5px;
+}
+
+
+
+
+
+
+/*
+* Mobile , desktops device
+*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .choise {
+        text-align: center;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .choise {
+        text-align: center;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .choise {
+        text-align: center;
+    }
+        
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .img-wraper {
+        width: 30%;
+        display: inline-block
+    }
+    .img-wraper img {
+        width: 70%;
+        display: inline-block
+    }
+    .choise span {
+        display: inline-block;
+        text-align: left;
+        font-weight: 700;
+    }
+    .choise {
+        float:left;
+        display: block;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .img-wraper {
+        width: 30%;
+        display: inline-block
+    }
+    .img-wraper img {
+        width: 70%;
+        display: inline-block
+    }
+    .choise span {
+        display: inline-block;
+        text-align: left;
+        font-weight: 700;
+    }
+    .choise {
+        float:left;
+        display: block;
+    }
+    
+}
+
