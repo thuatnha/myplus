@@ -66,6 +66,9 @@ h3.title-center {
 .mt-30 {
     margin-top: 30px !important;
 }
+.mr-0 {
+    margin-right: 0px !important;
+}
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -250,18 +253,117 @@ footer .logo {
     font-weight: 700;
     font-size: 20px;
     margin-top: 15px;
+    margin-left: -15px;
 }
 .dd-selected label {
-    font-weight: 300;
+    font-weight: 400;
     color: #555555;
     font-size: 14px;
+    line-height: 1.42857143;
 }
 .dd-option-text {
     line-height: 60px;
 }
+#pmember {
+    background: url('../images/bgdangkystep2.jpg') center top no-repeat;
+    min-height: 300px;
+}
+.member-info , .member-info > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.member-info > li {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    padding:5px 0px;
+}
+.member-info > li > ul > li {
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    padding:5px 0px;
+    position: relative;
+}
+.member-info > li {
+    border-bottom: 1px #cac9b5 solid;
+    position: relative;
+}
+.member-info > li:last-child {
+    border-bottom:none;
+}
+.member-info > li span, .member-info > li > ul > li span {
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 16px;
+}
+span.pp {
+    color:#ff7800;
+    margin-right: 35px;
+    
+}
+span.rp {
+    color:#2793d1;
+    margin-right: 35px;
+}
 
-
-
+.member-info li span i.fa {
+    opacity: 0.5;
+}
+.ipp {
+    background: url('../images/iconbg.png');
+    background-position: 0px 0px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.irp {
+    background: url('../images/iconbg.png');
+    background-position: 0px -32px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.info-member .panel-body {
+    min-height: 95px;
+}
+.info-member .panel-body .fa-user {
+    opacity: 0.5;
+}
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.member-info-detail {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.member-info-detail li {
+    width: 100%;
+    float:right;
+    position: relative;
+}
+.media-left {
+    min-width: 160px;
+}
+.media-left span {
+    line-height: 64px;
+    position: absolute;
+    margin-left: 10px;
+}
 
 
 
