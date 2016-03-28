@@ -61,10 +61,7 @@ h3.title-center {
     border-right: 1px #e2e2e2 solid;
 }
 .mt-20 {
-    margin-top: 20px !important;
-}
-.mt-30 {
-    margin-top: 30px !important;
+    margin-top: 20px;
 }
 .mb-20 {
     margin-bottom: 20px;
@@ -138,9 +135,6 @@ footer .logo {
     background: url('../images/bgdangkystep.jpg') center top no-repeat;
     min-height: 145px;
 }
-.invitation {
-    background: url('../images/bgdangky.jpg') center top no-repeat;
-}
 .mp_stepbar {
     list-style: none;
     margin: 30px -8%;
@@ -208,7 +202,7 @@ footer .logo {
 }
 .panel-body {
     color: #2f2f2f;
-    min-height: 150px
+    min-height: 250px
 }
 .panel {
     margin-top: 20px;
@@ -235,27 +229,9 @@ footer .logo {
     border: 2px #d7d7d7 solid !important;
     border-radius: 6px !important;
     color: #868686;
-    font-weight: 100;
-    width: 80%;
-    margin: 0 auto;
+    font-weight: 100;    
 }
-.btn-register {
-    bottom: 0px;
-}
-.panel-footer {
-    background-color: transparent !important;
-    border-top: none !important;
-}
-.invitation-code {
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 15px;
-}
-.dd-selected label {
-    font-weight: 300;
-    color: #555555;
-    font-size: 14px;
-}
+
 
 
 
