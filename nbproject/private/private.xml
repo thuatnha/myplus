@@ -2,13 +2,10 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
-        <group/>
-=======
         <group>
-            <file>file:/opt/lampp/htdocs/myplustemplate/public_html/index.html</file>
-            <file>file:/opt/lampp/htdocs/myplustemplate/public_html/css/style.css</file>
+            <file>file:/E:/xampp/htdocs/MyPlus_event/public_html/css/style.css</file>
+            <file>file:/E:/xampp/htdocs/MyPlus_event/public_html/js/jquery.ddslick.js</file>
+            <file>file:/E:/xampp/htdocs/MyPlus_event/public_html/gioi-thieu-nguoi-choi-moi.html</file>
         </group>
->>>>>>> 03d530012086c8305e9931b7fc12477db8572d34
     </open-files>
 </project-private>
